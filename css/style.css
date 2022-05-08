@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* =====Header===== */
+ul {
+    list-style: none;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-logo {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 2% 0 0;
+}
+
+.navbar-logo img {
+    max-width: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #808080;
+}
+
+.nav-item {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 25px 23px;
+}
+
+.nav-item:hover {
+    background-color: #d7d7d7;
+}
+
+.nav-link {
+    color: #808080;
+}
+
+.nav-link.active {
+    color: #ffff00;
+}
+
+.nav-link:hover {
+    color: #ffff00;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10%;
+    font-size: 500%;
+    text-shadow: 1px 1px 15px #000000;
+}
+
+.header__text {
+    font-size: 200%;
+    width: 60%;
+    font-weight: 500;
+    margin-bottom: 7%;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+.btn {
+    padding: 1% 6%;
+    margin-bottom: 10%;
+}
+
+/* =====Section-1===== */
+.section1 {
+    height: 100%;
+    background-color: #ffffff;
+    margin: 100px auto;
+}
+
+.section__title {
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section1__img {
+    max-width: 90%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.section1__img:hover {
+    transform: translate3d(-2.7rem, 0, 1rem);
+    box-shadow: 9px 14px 35px 7px #000000;
+}
+
+.section1__box img {
+    max-width: 42px;
+}
+
+.section1__box-title {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 16px;
+}
+
+.section1__icons {
+    height: 200px;
+    width: 200px;
+}
+
+.section1__icons img {
+    margin: 0 35px;
+}
+
+/* =====Section-3===== */
+.section__text-divider {
+    max-width: 100%;
+    background-color: gray;
+    height: 3px;
+    border: 0;
+}
+
+.section__text {
+    margin-bottom: 10%;
+}
+
+.section__speciality {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section__speciality-text {
+    font-weight: 700;
+}
+
+/* =====Section-5===== */
+.section__dates {
+    color: #0000ff;
+    font-weight: 400;
+}
+
+/* =====Section-6===== */
+
+.parallax {
+    padding: 10% 25%;
+    background: transparent;
+}
+
+.section6__parallax-title {
+    z-index: 2;
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.gif {
+    max-width: 100%;
+}
+
+/* =====Section-8===== */
+.works {
+    max-width: 90%;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.works:hover {
+    transform: translate3d(0, -2.7rem, 1rem);
+    box-shadow: 0px 10px 35px 7px #000000;
+}
+
+.works-img-top {
+    padding: 0 0 0 4px;
+}
+
+.works-body {
+    padding: 0 0 0 20px;
+}
+
+/* =====Section-10===== */
+.skills-body {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.skill-title {
+    text-transform: uppercase;
+}
+
+.skill__features {
+    margin-top: 37px;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0000ff;
+    text-transform: uppercase;
+}
+
+.single-wrapper {
+    width: 100%;
+    background-color: #808080;
+}
+
+.sills-area {
+    text-align: center;
+    padding-right: 30px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.skill__1 {
+    width: 90%;
+    background-color: #0000ff;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.skill__2 {
+    width: 80%;
+    background-color: #0000ff;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.skill__3 {
+    width: 12%;
+    background-color: #0000ff;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.skill__4 {
+    width: 35%;
+    background-color: #0000ff;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.skill__5 {
+    width: 8%;
+    background-color: #0000ff;
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* =====Footer===== */
+.menu {
+    white-space: nowrap;
+}
+
+.menu__item {
+    margin: 0 0px 0 0px;
+    padding-right: 20px;
+}
+
+.menu__item a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff
+}
